@@ -1,0 +1,50 @@
+ {
+	"info": {
+		"_postman_id": "e79cc9ba-4cc1-48e8-bd1a-6e584db04e2e",
+		"name": "harman",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8080/avengers/allCharacters",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/avengers/allCharacters",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"avengers",
+						"allCharacters"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/avengers/getCharacterPower/Captain America",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/avengers/getCharacterPower/Captain America",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"avengers",
+						"getCharacterPower",
+						"Captain America"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
